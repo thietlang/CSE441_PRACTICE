@@ -1,6 +1,5 @@
 package com.example.demor_cyclefile;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,21 +10,21 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
-Button btncall;
+public class Subactivity extends AppCompatActivity {
+    Button btnok;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_subactivity);
 
-        btncall = findViewById(R.id.btncall);
-        btncall.setOnClickListener(new View.OnClickListener() {
+        btnok = findViewById(R.id.btnok);
+        btnok.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-// TODO Auto-generated method stub
-                Intent intent1 = new Intent(MainActivity.this,Subactivity.class);
-                startActivity(intent1);
+        public void onClick(View v) {
+        // TODO Auto-generated method stub
+                finish();
             }
         });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

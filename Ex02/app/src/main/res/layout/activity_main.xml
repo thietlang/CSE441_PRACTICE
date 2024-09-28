@@ -23,11 +23,12 @@
         app:layout_constraintVertical_bias="0.089" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btncall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#B4B4B4"
         android:text="CALL DIALOG"
+        android:textAlignment="center"
         android:textColor="#090909"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
