@@ -1,3 +1,5 @@
+package com.example.usingrecyclerview;
+
 public class Landmark {
     public int imageResId;
     public String name;
