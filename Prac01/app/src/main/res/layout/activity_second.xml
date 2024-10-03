@@ -7,11 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
-    <!-- EditText để nhập họ tên -->
-
-    <!-- EditText để nhập GPA -->
-
-    <!-- Nút submit để gửi dữ liệu -->
 
     <EditText
         android:id="@+id/etFullName"
