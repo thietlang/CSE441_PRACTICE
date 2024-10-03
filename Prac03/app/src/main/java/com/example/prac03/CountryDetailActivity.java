@@ -1,6 +1,6 @@
 
 
-package com.example.populationapp;
+package com.example.prac03;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -19,10 +19,10 @@ public class CountryDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_country_detail);
 
-        // Lấy dữ liệu từ Intent
+
         Country country = (Country) getIntent().getSerializableExtra("country");
 
-        // Liên kết các view với layout
+
         ImageView flagImageView = findViewById(R.id.flagImageView);
         TextView nameTextView = findViewById(R.id.nameTextView);
         TextView capitalTextView = findViewById(R.id.capitalTextView);
@@ -31,7 +31,7 @@ public class CountryDetailActivity extends AppCompatActivity {
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView densityTextView = findViewById(R.id.densityTextView);
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView worldShareTextView = findViewById(R.id.worldShareTextView);
 
-        // Hiển thị dữ liệu quốc gia
+
         flagImageView.setImageResource(country.getFlagResId());
         nameTextView.setText("Nation: " + country.getName());
         capitalTextView.setText("Capital: " + country.getCapital());

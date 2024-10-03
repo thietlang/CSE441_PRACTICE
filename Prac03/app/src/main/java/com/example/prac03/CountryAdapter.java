@@ -13,8 +13,8 @@ import java.util.List;
 
 public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.CountryViewHolder> {
 
-    private List<Country> countryList;
-    private OnCountryClickListener listener;
+    private final List<Country> countryList;
+    private final OnCountryClickListener listener;
 
     public CountryAdapter(List<Country> countryList, OnCountryClickListener listener) {
         this.countryList = countryList;
