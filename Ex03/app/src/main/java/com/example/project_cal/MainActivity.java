@@ -78,7 +78,13 @@ public class MainActivity extends AppCompatActivity {
                 case "+":
                     edt3.setText("a + b = " + (a + b));
                     break;
-
+                case "-":
+                    edt3.setText("a - b = " + (a - b));
+                    break;
+                case "*":
+                    edt3.setText("a * b = " + (a * b));
+                    break;
+                
             }
         } catch (NumberFormatException e) {
             // Nếu không thể chuyển đổi sang số
