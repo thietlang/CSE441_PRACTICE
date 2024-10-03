@@ -84,7 +84,13 @@ public class MainActivity extends AppCompatActivity {
                 case "*":
                     edt3.setText("a * b = " + (a * b));
                     break;
-                
+                case "/":
+                    if (b == 0) {
+                        edt3.setText("B phải khác 0");
+                    } else {
+                        edt3.setText("a / b = " + (a / b));
+                    }
+                    break;
             }
         } catch (NumberFormatException e) {
             // Nếu không thể chuyển đổi sang số
