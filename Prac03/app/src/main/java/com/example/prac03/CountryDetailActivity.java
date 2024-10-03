@@ -2,6 +2,7 @@
 
 package com.example.populationapp;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -25,10 +26,10 @@ public class CountryDetailActivity extends AppCompatActivity {
         ImageView flagImageView = findViewById(R.id.flagImageView);
         TextView nameTextView = findViewById(R.id.nameTextView);
         TextView capitalTextView = findViewById(R.id.capitalTextView);
-        TextView populationTextView = findViewById(R.id.populationTextView);
-        TextView areaTextView = findViewById(R.id.areaTextView);
-        TextView densityTextView = findViewById(R.id.densityTextView);
-        TextView worldShareTextView = findViewById(R.id.worldShareTextView);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView populationTextView = findViewById(R.id.populationTextView);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView areaTextView = findViewById(R.id.areaTextView);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView densityTextView = findViewById(R.id.densityTextView);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView worldShareTextView = findViewById(R.id.worldShareTextView);
 
         // Hiển thị dữ liệu quốc gia
         flagImageView.setImageResource(country.getFlagResId());
