@@ -26,8 +26,9 @@
 
         <Button
             android:id="@+id/btnok"
-            android:layout_width="match_parent"
+            android:layout_width="114dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:background="#9B9999"
             android:backgroundTint="#949191"
             android:text="OK"
