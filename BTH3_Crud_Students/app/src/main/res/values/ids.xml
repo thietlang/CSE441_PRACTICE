@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtHoten" type="id" />
+    <item name="txtBirthDate" type="id" />
+    <item name="txtEmail" type="id" />
+    <item name="txtChuyenNganh" type="id" />
+    <item name="txtGPA" type="id" />
+    <item name="rgGioiTinh" type="id" />
+    <item name="btnHoanTat" type="id" />
+    <item name="txtAddress" type="id" />
+    <item name="rbNam" type="id" />
+    <item name="rbNu" type="id" />
+</resources>

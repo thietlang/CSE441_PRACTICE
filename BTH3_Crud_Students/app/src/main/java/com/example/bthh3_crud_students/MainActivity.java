@@ -1,5 +1,6 @@
 package com.example.bthh3_crud_students;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -19,17 +20,16 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RecyclerView recyclerView;
     private StudentAdapter studentAdapter;
-    private List<Student> studentList = new ArrayList<>();
-    private FloatingActionButton fabAddStudent;
+    private final List<Student> studentList = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        recyclerView = findViewById(R.id.recyclerViewStudents);
-        fabAddStudent = findViewById(R.id.fabAddStudent);
+        RecyclerView recyclerView = findViewById(R.id.recyclerViewStudents);
+        FloatingActionButton fabAddStudent = findViewById(R.id.fabAddStudent);
 
         loadJSONData();
 
@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
     public interface OnStudentDeletedListener {
         void onStudentDeleted(Student student);
     }
+    @SuppressLint("NotifyDataSetChanged")
     public void onStudentDeleted(Student student) {
         studentList.remove(student);
         studentAdapter.notifyDataSetChanged();
@@ -87,5 +88,4 @@ public class MainActivity extends AppCompatActivity {
         saveToInternalStorage();
     }
 
-}
 }

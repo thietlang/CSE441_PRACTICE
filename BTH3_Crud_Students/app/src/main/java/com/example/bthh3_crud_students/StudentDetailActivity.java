@@ -1,5 +1,6 @@
 package com.example.bthh3_crud_students;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,6 +13,7 @@ public class StudentDetailActivity extends AppCompatActivity {
 
     private Student student;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
