@@ -1,0 +1,122 @@
+[
+  {
+    "id": "B28DCCN120",
+    "full_name": {
+      "first": "Anh",
+      "last": "Lê",
+      "middle": "Văn"
+    },
+    "gender": "Nam",
+    "birth_date": "05/11/2009",
+    "email": "le.anh@gmail.com",
+    "address": "Hà Nội",
+    "major": "CNTT",
+    "gpa": 3.9,
+    "year": 3
+  },
+  {
+    "id": "B28DCCN121",
+    "full_name": {
+      "first": "Bảo",
+      "last": "Trần",
+      "middle": "Quốc"
+    },
+    "gender": "Nam",
+    "birth_date": "15/09/2008",
+    "email": "tran.bao@gmail.com",
+    "address": "TP. Hồ Chí Minh",
+    "major": "Kinh tế",
+    "gpa": 3.8,
+    "year": 3
+  },
+  {
+    "id": "B28DCCN122",
+    "full_name": {
+      "first": "Vy",
+      "last": "Nguyễn",
+      "middle": "Thanh"
+    },
+    "gender": "Nữ",
+    "birth_date": "25/05/2010",
+    "email": "nguyen.vy@gmail.com",
+    "address": "Đà Nẵng",
+    "major": "Marketing",
+    "gpa": 3.5,
+    "year": 2
+  },
+  {
+    "id": "B28DCCN123",
+    "full_name": {
+      "first": "Cường",
+      "last": "Phạm",
+      "middle": "Đình"
+    },
+    "gender": "Nam",
+    "birth_date": "02/02/2009",
+    "email": "pham.cuong@gmail.com",
+    "address": "Huế",
+    "major": "CNTT",
+    "gpa": 3.65,
+    "year": 3
+  },
+  {
+    "id": "B28DCCN124",
+    "full_name": {
+      "first": "My",
+      "last": "Trần",
+      "middle": "Tuyết"
+    },
+    "gender": "Nữ",
+    "birth_date": "19/06/2011",
+    "email": "tuyet.my@gmail.com",
+    "address": "Bình Dương",
+    "major": "Quản trị kinh doanh",
+    "gpa": 3.75,
+    "year": 2
+  },
+  {
+    "id": "B28DCCN125",
+    "full_name": {
+      "first": "Phúc",
+      "last": "Lê",
+      "middle": "Ngọc"
+    },
+    "gender": "Nam",
+    "birth_date": "10/10/2009",
+    "email": "le.phuc@gmail.com",
+    "address": "Quảng Ninh",
+    "major": "CNTT",
+    "gpa": 3.85,
+    "year": 3
+  },
+  {
+    "id": "B28DCCN126",
+    "full_name": {
+      "first": "Khang",
+      "last": "Nguyễn",
+      "middle": "Văn"
+    },
+    "gender": "Nam",
+    "birth_date": "17/08/2010",
+    "email": "nguyen.khang@gmail.com",
+    "address": "Hà Tĩnh",
+    "major": "Kinh tế",
+    "gpa": 3.9,
+    "year": 2
+  },
+  {
+    "id": "B28DCCN127",
+    "full_name": {
+      "first": "Trang",
+      "last": "Hoàng",
+      "middle": "Phương"
+    },
+    "gender": "Nữ",
+    "birth_date": "08/11/2009",
+    "email": "hoang.trang@gmail.com",
+    "address": "Vũng Tàu",
+    "major": "Marketing",
+    "gpa": 3.6,
+    "year": 3
+  }
+]
