@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "552388972100",
+    "project_id": "studentscrudfb",
+    "storage_bucket": "studentscrudfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552388972100:android:43d2a06e1588d8e0bd7611",
+        "android_client_info": {
+          "package_name": "com.example.students_crud_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnkjFoXkg2lgtLjzvZdSjdORU62ScxBwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
