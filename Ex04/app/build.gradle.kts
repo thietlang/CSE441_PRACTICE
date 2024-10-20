@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bthh3_crud_students"
+    namespace = "com.example.basic_control"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.bthh3_crud_students"
+        applicationId = "com.example.basic_control"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -40,9 +40,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    dependencies {
-        implementation("androidx.recyclerview:recyclerview:1.2.1")
-    }
-    implementation("com.google.code.gson:gson:2.10.1")
-    implementation(kotlin("script-runtime"))
 }
