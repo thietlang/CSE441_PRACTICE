@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.LENGTH_LONG).show();
             return;
         }
-//kiểm tra CMND hợp lệ
+
         String cmnd=editCMND.getText().toString();
         cmnd=cmnd.trim();
         if(cmnd.length()!=9)
@@ -66,6 +66,50 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        String bang="";
+        group = findViewById(R.id.idgruop);
+        int id=group.getCheckedRadioButtonId();// Trả về Id
+        if(id==-1)
+        {
+            Toast.makeText(this, "Phải chọn bằng cấp",
+
+                    Toast.LENGTH_LONG).show();
+            return;
+        }
+        RadioButton rad= findViewById(id);
+        bang=rad.getText()+"";
+
+        String sothich="";
+        if(chkdocbao.isChecked())
+            sothich+=chkdocbao.getText()+"\n";
+        if(chkdocsach.isChecked())
+            sothich+=chkdocsach.getText()+"\n";
+        if(chkdoccode.isChecked())
+            sothich+=chkdoccode.getText()+"\n";
+        String bosung=editBosung.getText()+"";
+
+        AlertDialog.Builder builder=new AlertDialog.Builder(this);
+        builder.setTitle("Thông tin cá nhân");
+        builder.setPositiveButton("Đóng", new
+                DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // TODO Auto-generated method stub
+                        dialog.cancel();
+                    }
+                });
+        //tạo nội dung
+        String msg=ten+"\n";
+        msg+= cmnd+"\n";
+        msg+=bang+"\n";
+        msg+=sothich;
+        msg+="—————————–\n";
+        msg+="Thông tin bổ sung:\n";
+        msg+=bosung+ "\n";
+        msg+="—————————–";
+        builder.setMessage(msg);
+        builder.create().show();
+    }
 
     @Override
     public void onBackPressed() {
