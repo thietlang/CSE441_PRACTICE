@@ -10,29 +10,33 @@
         android:id="@+id/edtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Họ tên"/>
+        android:autofillHints=""
+        android:hint="@string/h_t_n"/>
 
     <EditText
         android:id="@+id/edtMSSV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="MSSV"/>
+        android:autofillHints=""
+        android:hint="@string/mssv"/>
 
     <EditText
         android:id="@+id/edtClass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Lớp"/>
+        android:autofillHints=""
+        android:hint="@string/l_p"/>
 
     <EditText
         android:id="@+id/edtScore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Điểm trung bình"/>
+        android:autofillHints=""
+        android:hint="@string/i_m_trung_b_nh"/>
 
     <Button
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lưu"/>
+        android:text="@string/l_u"/>
 </LinearLayout>

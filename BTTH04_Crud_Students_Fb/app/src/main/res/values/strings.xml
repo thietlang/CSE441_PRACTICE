@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">students_crud_firebase</string>
+    <string name="h_t_n">Họ tên</string>
+    <string name="mssv">MSSV</string>
+    <string name="l_p">Lớp</string>
+    <string name="i_m_trung_b_nh">Điểm trung bình</string>
+    <string name="l_u">Lưu</string>
 </resources>
