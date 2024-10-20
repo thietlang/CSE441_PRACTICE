@@ -15,7 +15,7 @@ import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
     EditText edtdoC,edtdoF;
-    Button btncf,btnfc;
+    Button btncf,btnfc , btnClear;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,13 @@ public class MainActivity extends AppCompatActivity {
                     String doF = edtdoF.getText() + "";
                     int F = Integer.parseInt(doF);
                     edtdoC.setText("" + dcf.format((F - 32) / 1.8));
+                }
+            });
+            btnClear.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    edtdoC.setText("");
+                    edtdoF.setText(""); 
                 }
             });
         }
